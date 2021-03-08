@@ -143,10 +143,10 @@ X-XSS-Protection: 1; mode=block
 
 25. If your class covered security headers, what security request headers have been included?
 
-**Strict-Transport-Security: max-age=31536000; includeSubDomains
-X-Content-Type: NoSniff
-X-Frame-Options: DENY
-X-XSS-Protection: 1; mode=block**
+- `Strict-Transport-Security: max-age=31536000; includeSubDomains`
+- `X-Content-Type: NoSniff`
+- `X-Frame-Options: DENY`
+- `X-XSS-Protection: 1; mode=block`
 
 #### Monoliths and Microservices
 
